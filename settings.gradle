@@ -1,0 +1,4 @@
+include ':postgresql-42.2.14'
+include ':json-simple-1.1.1'
+include ':app'
+rootProject.name = "Snow"

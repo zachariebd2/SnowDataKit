@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cesbio.SDK"
+    android:targetSandboxVersion="2"
+    android:versionCode="5"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+    <!-- Permissions requises -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.cesbio.SDK.activities.Help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.UpdatePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.SavedForms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Statistics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.SentForms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Welcome"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cesbio.SDK.activities.Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Connection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.SendForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cesbio.SDK.activities.Form"
+            android:screenOrientation="portrait" /> <!-- API CODE GOOGLE MAPS -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name="com.cesbio.SDK.activities.GeoLocation"
+            android:screenOrientation="portrait" />
+        <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

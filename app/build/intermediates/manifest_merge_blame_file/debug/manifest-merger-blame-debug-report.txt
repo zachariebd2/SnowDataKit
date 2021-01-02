@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cesbio.SDK"
+4    android:versionCode="5"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml
+10    <!-- Permissions requises -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:9:5-79
+13-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:10:5-81
+14-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:10:22-78
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:12:5-46:19
+21        android:allowBackup="true"
+21-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:13:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\429fb715fcc7711d4ab133e350b6f531\core-1.3.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:fullBackupContent="@xml/backup_descriptor"
+24-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:14:9-59
+25        android:icon="@drawable/icon"
+25-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:15:9-38
+26        android:label="@string/app_name"
+26-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:16:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:17:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:18:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme"
+30-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:19:9-40
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:20:9-44
+32        <activity
+32-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:21:9-99
+33            android:name="com.cesbio.SDK.activities.Help"
+33-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:21:19-50
+34            android:screenOrientation="portrait" />
+34-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:21:51-87
+35        <activity
+35-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:22:9-92
+36            android:name="com.cesbio.SDK.activities.Account"
+36-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:22:19-53
+37            android:screenOrientation="portrait" />
+37-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:22:54-90
+38        <activity
+38-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:23:9-99
+39            android:name="com.cesbio.SDK.activities.UpdatePassword"
+39-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:23:19-60
+40            android:screenOrientation="portrait" />
+40-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:23:61-97
+41        <activity
+41-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:24:9-95
+42            android:name="com.cesbio.SDK.activities.SavedForms"
+42-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:24:19-56
+43            android:screenOrientation="portrait" />
+43-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:24:57-93
+44        <activity
+44-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:25:9-95
+45            android:name="com.cesbio.SDK.activities.Statistics"
+45-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:25:19-56
+46            android:screenOrientation="portrait" />
+46-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:25:57-93
+47        <activity
+47-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:26:9-94
+48            android:name="com.cesbio.SDK.activities.SentForms"
+48-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:26:19-55
+49            android:screenOrientation="portrait" />
+49-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:26:56-92
+50        <activity
+50-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:27:9-89
+51            android:name="com.cesbio.SDK.activities.Home"
+51-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:27:19-50
+52            android:screenOrientation="portrait" />
+52-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:27:51-87
+53        <activity
+53-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:28:9-35:20
+54            android:name="com.cesbio.SDK.activities.Welcome"
+54-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:28:19-53
+55            android:screenOrientation="portrait" >
+55-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:28:54-90
+56            <intent-filter>
+56-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:30:13-34:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:31:17-69
+57-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:31:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:33:17-77
+59-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:33:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:36:9-97
+63            android:name="com.cesbio.SDK.activities.Registration"
+63-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:36:19-58
+64            android:screenOrientation="portrait" />
+64-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:36:59-95
+65        <activity
+65-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:37:9-95
+66            android:name="com.cesbio.SDK.activities.Connection"
+66-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:37:19-56
+67            android:screenOrientation="portrait" />
+67-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:37:57-93
+68        <activity
+68-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:38:9-93
+69            android:name="com.cesbio.SDK.activities.SendForm"
+69-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:38:19-54
+70            android:screenOrientation="portrait" />
+70-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:38:55-91
+71        <activity
+71-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:39:9-99
+72            android:name="com.cesbio.SDK.activities.ForgotPassword"
+72-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:39:19-60
+73            android:screenOrientation="portrait" />
+73-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:39:61-97
+74        <activity
+74-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:40:9-89
+75            android:name="com.cesbio.SDK.activities.Form"
+75-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:40:19-50
+76            android:screenOrientation="portrait" /> <!-- API CODE GOOGLE MAPS -->
+76-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:40:51-87
+77        <meta-data
+77-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:41:9-43:47
+78            android:name="com.google.android.geo.API_KEY"
+78-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:42:13-58
+79            android:value="@string/map_key" />
+79-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:43:13-44
+80
+81        <activity
+81-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:45:9-96
+82            android:name="com.cesbio.SDK.activities.GeoLocation"
+82-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:45:19-57
+83            android:screenOrientation="portrait" />
+83-->C:\Users\zacha\AndroidStudioProjects\SNOWDATAKIT\app\src\main\AndroidManifest.xml:45:58-94
+84        <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\7752dcb5f35954b62a1d54735ffd34b4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\a1794986c7a3c4986f9feb2359005476\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\zacha\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>

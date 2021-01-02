@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Salah-Eddine ET-TALEBY, CESBIO 2020
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="@drawable/snow">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="@string/tutorial1"/>
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="214dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/im_hicker2" />
+
+
+</LinearLayout>

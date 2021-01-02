@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Snow.iml" filepath="$PROJECT_DIR$/.idea/modules/Snow.iml" group="Snow" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Snow/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-simple-1.1.1/json-simple-1.1.1.iml" filepath="$PROJECT_DIR$/.idea/modules/json-simple-1.1.1/json-simple-1.1.1.iml" group="Snow/json-simple-1.1.1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgresql-42.2.14/postgresql-42.2.14.iml" filepath="$PROJECT_DIR$/.idea/modules/postgresql-42.2.14/postgresql-42.2.14.iml" group="Snow/postgresql-42.2.14" />
+    </modules>
+  </component>
+</project>

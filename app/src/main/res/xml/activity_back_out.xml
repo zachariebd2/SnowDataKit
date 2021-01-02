@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Salah-Eddine ET-TALEBY, CESBIO 2020
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:toXDelta="100%" android:duration="200" android:fromXDelta="0"></translate>
+</set>
