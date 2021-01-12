@@ -1,3 +1,5 @@
-# ODK Neige - Sujet de stage 2020 (CESBIO)
- App. de collecte de données codée en Java (Android Studio)
-https://drive.google.com/file/d/1P8oHH_KjfgRzLDswx3gbZRMPI7X62r8j/view?usp=sharing (la prévisualisation du fichier sur Google Drive ne marche pas très bien, vaut mieux télécharger le doc)
+# Snow Data Kit (CESBIO)
+Application for the easy collection of snow data (Android Studio)
+
+Developped by : Salah-Eddine ET-Taleby (during an internship at the CESBIO); salah_ettaleby@icloud.com
+              : Zacharie Barrou Dumont (supervisor); barroudumontz@cesbio.cnes.fr
